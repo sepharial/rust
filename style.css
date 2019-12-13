@@ -198,7 +198,7 @@ a {
     display:block;
     position:relative;
     margin:0px;
-    padding:50px;}
+    padding:25px;}
     .clickmenu {
     position:absolute;
     top:25px;
@@ -255,7 +255,7 @@ a {
     display:inline-block;
     width:225px;
     top:0px;
-    padding-bottom:20px;
+    padding-bottom:0px;
     border-top:0px solid #fff;
     background:transparent;}
     .link-wrapper a {
@@ -284,6 +284,13 @@ a {
     border-bottom:10px solid transparent;}
     .menu-title-link:hover {
     border-bottom:10px solid #fff;}
+}
+
+@media only screen and (max-width: 745px) {
+    .mini-menu {
+    padding-bottom:20px;}
+    .mini-menu:nth-of-type(3) {
+    padding-bottom:0px;}
 }
 
 @media only screen and (max-width: 500px) {
