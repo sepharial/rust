@@ -907,6 +907,8 @@ a {
 .podcast-header, .menu-title {
     letter-spacing:-1px;
     font-family:'Fugaz One', monospace;}
+    .subscribble-links a {
+    font-size:0.9em;}
 }
 
 </style>
