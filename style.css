@@ -78,21 +78,6 @@ a {
     color:#fff;
     border-bottom:10px solid #fff;}
 
-
-@media only screen and (max-width: 500px) {
-.logo {
-    display:block;
-    position:absolute;
-    left:5px;
-    top:0px;
-    padding:10px;
-    padding-right:0px;
-    width:55px;
-    height:55px;}
-    .name {
-    margin-left:70px;}
-}
-
 .star {
     padding:0px 12px;
     font-weight:bold;
@@ -301,16 +286,18 @@ a {
     border-bottom:10px solid #fff;}
 }
 
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 .logo {
     display:block;
     position:absolute;
     left:0px;
     top:0px;
-    padding:10px 10px 10px 0px;
+    padding:10px;
+    padding-right:0px;
     width:55px;
     height:55px;}
+    .name {
+    margin-left:70px;}
 }
 
 .content {
