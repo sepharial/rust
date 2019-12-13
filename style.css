@@ -904,7 +904,7 @@ a {
         font-weight:900;}
 
  @media only screen and (max-width: 500px) {
-.podcast-header, .name, .menu-title {
+.podcast-header, .menu-title {
     letter-spacing:-1px;
     font-family:'Fugaz One', monospace;}
 }
