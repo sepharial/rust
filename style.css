@@ -906,8 +906,11 @@ a {
         font-weight:900;}
 
  @media only screen and (max-width: 500px) {
-.podcast-header, .menu-title {
+.name, .menu-title {
     letter-spacing:-1px;
+    font-family:'Fugaz One', monospace;}
+    .podcast-header {
+    letter-spacing:-2px;
     font-family:'Fugaz One', monospace;}
     .subscribble-links a {
     font-size:0.9em;}
