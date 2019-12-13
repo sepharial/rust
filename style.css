@@ -79,7 +79,7 @@ a {
     border-bottom:10px solid #fff;}
 
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 500px) {
 .logo {
     display:block;
     position:absolute;
@@ -902,4 +902,11 @@ a {
     font-family:'Fugaz One', monospace;}
 .podcast-name {
         font-weight:900;}
+
+ @media only screen and (max-width: 500px) {
+.podcast-header, .name, .menu-title {
+    letter-spacing:-1px;
+    font-family:'Fugaz One', monospace;}
+}
+
 </style>
