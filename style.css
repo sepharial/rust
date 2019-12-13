@@ -83,12 +83,14 @@ a {
 .logo {
     display:block;
     position:absolute;
-    left:0px;
+    left:5px;
     top:0px;
     padding:10px;
     padding-right:0px;
     width:55px;
     height:55px;}
+    .name {
+    margin-left:70px;
 }
 
 .star {
