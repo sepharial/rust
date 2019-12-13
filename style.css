@@ -677,7 +677,7 @@ a {
     -o-border-radius:5px;
     border-radius:5px;}
 
- @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 .podcast-description table {
     width:100%;}
     .podcast-description td {
@@ -687,7 +687,7 @@ a {
     max-height:175px;}
 }
 
- @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .podcast-description table {
     width:100%;}
     .podcast-description td {
@@ -710,6 +710,10 @@ a {
     -ms-border-radius:10px;
     -o-border-radius:10px;
     border-radius:10px;}
+    .subscribe-links {
+    margin:0px auto 5px auto;}
+    .podcast-description {
+    padding-bottom:0px;}
 }
 
 .footer {
